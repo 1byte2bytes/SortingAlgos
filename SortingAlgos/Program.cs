@@ -45,7 +45,7 @@ namespace SortingAlgos
         public static void Main(string[] args)
         {
             // Create our initial variables
-            int arraySizes = 10;
+            int arraySizes = 1000;
             Random rnd = new Random();
             int[] array = new int[arraySizes];
             int[] sortedArray = new int[arraySizes];
