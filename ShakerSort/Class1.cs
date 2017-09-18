@@ -4,12 +4,13 @@ namespace SortingAlgos
 {
     public class ShakerSort
     {
+        private static bool swapped = true;
+        
         public static void Sort(int[] input)
         {
             int len = input.Length;
-            bool swapped = true;
 
-            while (swapped == true)
+            while (swapped)
             {
                 swapped = false;
                 
@@ -24,12 +25,8 @@ namespace SortingAlgos
                     }
                 }
 
-                if (swapped == false)
-                {
-                    return;
-                }
-
-                swapped = false;
+                // If nothing was changed, return
+                if (swapped == false) return;
                 
                 for (int i = len - 2; i > 0; i--)
                 {
@@ -40,11 +37,6 @@ namespace SortingAlgos
                         input[i] = temp;
                         swapped = true;
                     }
-                }
-                
-                if (swapped == false)
-                {
-                    return;
                 }
             }
         }
