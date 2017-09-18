@@ -5,8 +5,8 @@ A set of sorting algorithms I made in C#. I don't know why you'd really use thes
 
 ## Implemented Algorithms
 - Bubble Sort
+- Shaker Sort
 
 ## Algorithms coming soon
-- Shellsort
-- Combsort
-- Shakersort
+- Shell sort
+- Comb sort

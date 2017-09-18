@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingAlgos", "SortingAlgo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "BubbleSort\BubbleSort.csproj", "{580FF020-9A74-45C3-8709-1F76CC8BEA23}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShakerSort", "ShakerSort\ShakerSort.csproj", "{52B16D6C-AF38-42A4-BF8F-FF42C8BBD0A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{580FF020-9A74-45C3-8709-1F76CC8BEA23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{580FF020-9A74-45C3-8709-1F76CC8BEA23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{580FF020-9A74-45C3-8709-1F76CC8BEA23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52B16D6C-AF38-42A4-BF8F-FF42C8BBD0A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52B16D6C-AF38-42A4-BF8F-FF42C8BBD0A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52B16D6C-AF38-42A4-BF8F-FF42C8BBD0A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52B16D6C-AF38-42A4-BF8F-FF42C8BBD0A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

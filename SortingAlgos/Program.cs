@@ -14,11 +14,19 @@ namespace SortingAlgos
             {
                 array[i] = rnd.Next();
             }
+            Console.WriteLine("-------------------------");
             Console.WriteLine("Generated random numbers!");
             
             // Copy and sort array
             Array.Copy(array, sortedArray, arraySizes);
             Array.Sort(sortedArray);
+            
+            // Check if generated numbers are the same as the sorted array
+            if (ArrayEqual(array, sortedArray) == false)
+            {
+                Console.WriteLine("Done checking numbers");
+                Console.WriteLine("-------------------------");
+            }
         }
 
         public static bool ArrayEqual(int[] first, int[] second)
@@ -45,16 +53,18 @@ namespace SortingAlgos
             // Generate some random numbers
             GenerateArray(array, sortedArray, rnd, arraySizes);
             
-            // Check that the sorted array and main array are not equal
-            if (ArrayEqual(array, sortedArray) == false)
-            {
-                Console.WriteLine("Done checking numbers");
-            }
-            
             // Complete BubbleSort test
             BubbleSort.Sort(array);
             ArrayEqual(array, sortedArray);
             Console.WriteLine("BubbleSort finished");
+            
+            // Generate some random numbers
+            GenerateArray(array, sortedArray, rnd, arraySizes);
+            
+            // Complete BubbleSort test
+            ShakerSort.Sort(array);
+            ArrayEqual(array, sortedArray);
+            Console.WriteLine("ShakerSort finished");
         }
     }
 }
