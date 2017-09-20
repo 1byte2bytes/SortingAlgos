@@ -6,7 +6,7 @@ A set of sorting algorithms I made in C#. I don't know why you'd really use thes
 ## Implemented Algorithms
 - Bubble Sort
 - Shaker Sort
+- Comb sort
 
 ## Algorithms coming soon
 - Shell sort
-- Comb sort
