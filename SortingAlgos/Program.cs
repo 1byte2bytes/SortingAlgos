@@ -65,6 +65,14 @@ namespace SortingAlgos
             ShakerSort.Sort(array);
             ArrayEqual(array, sortedArray);
             Console.WriteLine("ShakerSort finished");
+            
+            // Generate some random numbers
+            GenerateArray(array, sortedArray, rnd, arraySizes);
+            
+            // Complete BubbleSort test
+            CombSort.Sort(array);
+            ArrayEqual(array, sortedArray);
+            Console.WriteLine("CombSort finished");
         }
     }
 }
